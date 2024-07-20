@@ -22,3 +22,10 @@
 #profileToggle:checked ~ #profileSidebar {
     transform: translateX(0);
 }
+
+.notification-hidden {
+    display: none;
+}
+.notification-visible {
+    display: block;
+}

@@ -32,7 +32,7 @@
                 <h1 class="text-purple-900 flex flex-col">Universitas Amikom <span> Yogyakarta</span></h1>
             </div>    
             <div class="flex flex-col ">
-                <a href="/login" class="text-purple-900 p-2 px-10">Masuk</a>
+                <a href="/login" class="text-purple-900 p-2">Masuk</a>
             </div>
 
         </nav>
