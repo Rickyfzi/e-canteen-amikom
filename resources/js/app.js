@@ -21,6 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
+
 document.addEventListener('DOMContentLoaded', () => {
     // Mendapatkan semua tombol dan elemen counter
     const counters = document.querySelectorAll('.counter');
