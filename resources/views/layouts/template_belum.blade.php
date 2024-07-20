@@ -23,7 +23,7 @@
     
 
    
-    <header id="navbar" class="bg-white  flex items-center md:h-20 top-0 sticky z-50 shadow-dream-C">
+    <header id="navbar" class="bg-white shadow-md flex items-center md:h-20 top-0 sticky z-50 shadow-dream-C">
         <nav class="flex relative justify-between items-center w-full md:w-[92%] md:mx-auto px-[4%] md:px-0 text-md font-medium">
             <div class="flex items-center gap-3 ">
                 <a href="/">

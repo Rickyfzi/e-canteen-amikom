@@ -17,7 +17,7 @@
                     <a href="/history" class="flex justify-center h-10 w-full md:w-24 px-4 py-2 bg-purple-900 text-white font-semibold rounded-full hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-75">
                         <img src="./assets/image/history.svg" alt="" class="">
                     </a>
-                    <a href="/keranjang" class="flex justify-center h-10 w-full md:w-24 px-4 py-2 bg-purple-900 text-white font-semibold rounded-full hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-75 xs:hidden md:block">
+                    <a href="/keranjang" class="hidden md:flex justify-center h-10 w-full md:w-24 px-4 py-2 bg-purple-900 text-white font-semibold rounded-full hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-75 ">
                         <img src="./assets/image/chart.svg" alt="" class="">
                     </a>    
                     <a href="/keranjang" class="fixed bottom-10 right-6 z-50 shadow-md flex justify-center px-4 py-4 rounded-full bg-purple-900 text-white font-semibold hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-75 md:hidden">

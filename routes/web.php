@@ -11,3 +11,6 @@ Route::get('/sudah-login-beranda', function () {
 Route::get('/menu-warung', function () {
     return view('e-canteen.warung_menu');
 });
+Route::get('/notifikasi', function () {
+    return view('e-canteen.notifikasi');
+});

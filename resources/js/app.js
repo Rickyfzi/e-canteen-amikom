@@ -19,22 +19,46 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-document.getElementById('showNotification').addEventListener('click', function () {
-    document.getElementById('notification').classList.remove('notification-hidden');
-    document.getElementById('notification').classList.add('notification-visible');
-});
 
-document.getElementById('hideNotification').addEventListener('click', function () {
-    document.getElementById('notification').classList.remove('notification-visible');
-    document.getElementById('notification').classList.add('notification-hidden');
-});
 
-document.addEventListener('click', function (event) {
-    var notification = document.getElementById('notification');
-    var showNotificationButton = document.getElementById('showNotification');
+document.addEventListener('DOMContentLoaded', () => {
+    // Mendapatkan semua tombol dan elemen counter
+    const counters = document.querySelectorAll('.counter');
+    const decreaseButtons = document.querySelectorAll('.decrease');
+    const increaseButtons = document.querySelectorAll('.increase');
 
-    if (!notification.contains(event.target) && !showNotificationButton.contains(event.target)) {
-        notification.classList.remove('notification-visible');
-        notification.classList.add('notification-hidden');
+    // Menyimpan nilai awal untuk setiap counter
+    const counterValues = {};
+
+    // Inisialisasi nilai counter
+    counters.forEach(counter => {
+        const counterId = counter.getAttribute('data-counter');
+        counterValues[counterId] = parseInt(counter.textContent, 10);
+    });
+
+    // Fungsi untuk memperbarui nilai counter
+    function updateCounter(counterId, newValue) {
+        document.querySelector(`.counter[data-counter="${counterId}"]`).textContent = newValue;
     }
+
+    // Menambahkan event listener untuk tombol kurangi
+    decreaseButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const counterId = button.getAttribute('data-counter');
+            const currentValue = counterValues[counterId];
+            if (currentValue > 0) {
+                counterValues[counterId] = currentValue - 1;
+                updateCounter(counterId, counterValues[counterId]);
+            }
+        });
+    });
+
+    // Menambahkan event listener untuk tombol tambah
+    increaseButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const counterId = button.getAttribute('data-counter');
+            counterValues[counterId] = counterValues[counterId] + 1;
+            updateCounter(counterId, counterValues[counterId]);
+        });
+    });
 });
