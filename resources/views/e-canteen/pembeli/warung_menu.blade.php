@@ -3,10 +3,10 @@
 
     @section('contents')
     <main class="bg-gray-100">
-        <article class="w-[92%] mx-auto bg-white md:py-10 xs:py-4 xs:px-3 xl:px-16 gap-12">
+        <article class="w-[92%] mx-auto bg-white md:py-10 xs:py-4 xs:px-3 xl:px-16 gap-12 relative">
             <h1 class="font-bold text-xl text-slate-600 mb-4">Nama Warung</h1>
-        
-            <div class="overflow-x-auto">
+            <a href="/sudah-login-beranda" class="absolute sm:top-16 xs:top-8 xs:right-10 sm:right-16 bg-purple-900 shadow-md px-4 py-1 rounded-sm text-white hover:bg-blue-600">back</a>
+            <div class="overflow-x-auto py-4">
                 <table class="min-w-full divide-y divide-gray-200 rounded-md">
                     <thead class="bg-purple-900">
                         <tr>
@@ -25,7 +25,7 @@
                         <!-- Baris 1 -->
                         <tr data-price="15000">
                             <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
-                                <img src="./assets/image/menu/nasi goreng.svg" alt="">
+                                <img src="./assets/image/menu/nasi goreng.png" alt="">
                                 Nasi Goreng
                             </td>
                             <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
@@ -46,7 +46,7 @@
                         <!-- Baris 2 -->
                         <tr data-price="4000">
                             <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
-                                <img src="./assets/image/menu/esteh.svg" alt="">
+                                <img src="./assets/image/menu/esteh.png" alt="">
                                 Es Teh
                             </td>
                             <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
@@ -67,7 +67,7 @@
                         <!-- Baris 3 -->
                         <tr data-price="20000">
                             <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
-                                <img src="./assets/image/menu/nasi goreng.svg" alt="">
+                                <img src="./assets/image/menu/nasi goreng.png" alt="">
                                 Mie Goreng
                             </td>
                             <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">

@@ -31,56 +31,56 @@
                     <div class="flex flex-row gap-6 mt-6 min-w-max">
                         <div class="p-4">
                             <a href="/menu" class="block transform transition-transform hover:scale-105">
-                                <img src="./assets/image/warung1.svg" alt="" class="rounded-xl w-60">
+                                <img src="./assets/image/warung1.png" alt="" class="rounded-xl w-60">
                                 <h1 class="text-slate-600 text-center font-semibold mt-2">Warung 1</h1>
                             </a>
                         </div>
                     
                         <div class="p-4">
                             <a href="/menu" class="block transform transition-transform hover:scale-105">
-                                <img src="./assets/image/warung1.svg" alt="" class="rounded-xl w-60">
+                                <img src="./assets/image/warung1.png" alt="" class="rounded-xl w-60">
                                 <h1 class="text-slate-600 text-center font-semibold mt-2">Warung 1</h1>
                             </a>
                         </div>
                     
                         <div class="p-4">
                             <a href="/menu" class="block transform transition-transform hover:scale-105">
-                                <img src="./assets/image/warung1.svg" alt="" class="rounded-xl w-60">
+                                <img src="./assets/image/warung1.png" alt="" class="rounded-xl w-60">
                                 <h1 class="text-slate-600 text-center font-semibold mt-2">Warung 1</h1>
                             </a>
                         </div>
                     
                         <div class="p-4">
                             <a href="/menu" class="block transform transition-transform hover:scale-105">
-                                <img src="./assets/image/warung1.svg" alt="" class="rounded-xl w-60">
+                                <img src="./assets/image/warung1.png" alt="" class="rounded-xl w-60">
                                 <h1 class="text-slate-600 text-center font-semibold mt-2">Warung 1</h1>
                             </a>
                         </div>
                     
                         <div class="p-4">
                             <a href="/menu" class="block transform transition-transform hover:scale-105">
-                                <img src="./assets/image/warung1.svg" alt="" class="rounded-xl w-60">
+                                <img src="./assets/image/warung1.png" alt="" class="rounded-xl w-60">
                                 <h1 class="text-slate-600 text-center font-semibold mt-2">Warung 1</h1>
                             </a>
                         </div>
                     
                         <div class="p-4">
                             <a href="/menu" class="block transform transition-transform hover:scale-105">
-                                <img src="./assets/image/warung1.svg" alt="" class="rounded-xl w-60">
+                                <img src="./assets/image/warung1.png" alt="" class="rounded-xl w-60">
                                 <h1 class="text-slate-600 text-center font-semibold mt-2">Warung 1</h1>
                             </a>
                         </div>
                     
                         <div class="p-4">
                             <a href="/menu" class="block transform transition-transform hover:scale-105">
-                                <img src="./assets/image/warung1.svg" alt="" class="rounded-xl w-60">
+                                <img src="./assets/image/warung1.png" alt="" class="rounded-xl w-60">
                                 <h1 class="text-slate-600 text-center font-semibold mt-2">Warung 1</h1>
                             </a>
                         </div>
                     
                         <div class="p-4">
                             <a href="/menu" class="block transform transition-transform hover:scale-105">
-                                <img src="./assets/image/warung1.svg" alt="" class="rounded-xl w-60">
+                                <img src="./assets/image/warung1.png" alt="" class="rounded-xl w-60">
                                 <h1 class="text-slate-600 text-center font-semibold mt-2">Warung 1</h1>
                             </a>
                         </div>
@@ -95,78 +95,70 @@
                 <div class="w-full overflow-x-auto max-w-screen-xl">
                     <div class="flex flex-row gap-3 mt-6 min-w-max">
                         <div class="p-4">
-                            <a href="/menu" class="block transform transition-transform hover:scale-105">
-                                <img src="./assets/image/warung1.svg" alt="" class="rounded-xl w-40">
-                                <h1 class="text-slate-600 text-center font-semibold mt-2">Warung 1</h1>
+                            <a href="/menu-warung" class="block transform transition-transform hover:scale-105 ">
+                                <img src="./assets/image/warung1.png" alt="Warung 1" class="rounded-xl w-40 mx-auto relative">
+                                <div class="absolute top-3 right-0 bg-purple-900 text-white text-xs rounded-s-xl p-2">
+                                    <p> <span>23 </span>Terjual</p>
+                                </div>
+                                <h1 class="text-slate-600 text-center font-semibold mt-2">nama makanan</h1>
                             </a>
                         </div>
-                    
                         <div class="p-4">
-                            <a href="/menu" class="block transform transition-transform hover:scale-105">
-                                <img src="./assets/image/warung1.svg" alt="" class="rounded-xl w-40">
-                                <h1 class="text-slate-600 text-center font-semibold mt-2">Warung 1</h1>
+                            <a href="/menu-warung" class="block transform transition-transform hover:scale-105 ">
+                                <img src="./assets/image/warung2.png" alt="Warung 1" class="rounded-xl w-40 mx-auto relative">
+                                <div class="absolute top-3 right-0 bg-purple-900 text-white text-xs rounded-s-xl p-2">
+                                    <p> <span>23 </span>Terjual</p>
+                                </div>
+                                <h1 class="text-slate-600 text-center font-semibold mt-2">nama makanan</h1>
                             </a>
                         </div>
-                    
                         <div class="p-4">
-                            <a href="/menu" class="block transform transition-transform hover:scale-105">
-                                <img src="./assets/image/warung1.svg" alt="" class="rounded-xl w-40">
-                                <h1 class="text-slate-600 text-center font-semibold mt-2">Warung 1</h1>
+                            <a href="/menu-warung" class="block transform transition-transform hover:scale-105 ">
+                                <img src="./assets/image/warung3.png" alt="Warung 1" class="rounded-xl w-40 mx-auto relative">
+                                <div class="absolute top-3 right-0 bg-purple-900 text-white text-xs rounded-s-xl p-2">
+                                    <p> <span>23 </span>Terjual</p>
+                                </div>
+                                <h1 class="text-slate-600 text-center font-semibold mt-2">nama makanan</h1>
                             </a>
                         </div>
-                    
                         <div class="p-4">
-                            <a href="/menu" class="block transform transition-transform hover:scale-105">
-                                <img src="./assets/image/warung1.svg" alt="" class="rounded-xl w-40">
-                                <h1 class="text-slate-600 text-center font-semibold mt-2">Warung 1</h1>
+                            <a href="/menu-warung" class="block transform transition-transform hover:scale-105 ">
+                                <img src="./assets/image/warung4.png" alt="Warung 1" class="rounded-xl w-40 mx-auto relative">
+                                <div class="absolute top-3 right-0 bg-purple-900 text-white text-xs rounded-s-xl p-2">
+                                    <p> <span>23 </span>Terjual</p>
+                                </div>
+                                <h1 class="text-slate-600 text-center font-semibold mt-2">nama makanan</h1>
                             </a>
                         </div>
-                    
                         <div class="p-4">
-                            <a href="/menu" class="block transform transition-transform hover:scale-105">
-                                <img src="./assets/image/warung1.svg" alt="" class="rounded-xl w-40">
-                                <h1 class="text-slate-600 text-center font-semibold mt-2">Warung 1</h1>
+                            <a href="/menu-warung" class="block transform transition-transform hover:scale-105 ">
+                                <img src="./assets/image/warung1.png" alt="Warung 1" class="rounded-xl w-40 mx-auto relative">
+                                <div class="absolute top-3 right-0 bg-purple-900 text-white text-xs rounded-s-xl p-2">
+                                    <p> <span>23 </span>Terjual</p>
+                                </div>
+                                <h1 class="text-slate-600 text-center font-semibold mt-2">nama makanan</h1>
                             </a>
                         </div>
-                    
                         <div class="p-4">
-                            <a href="/menu" class="block transform transition-transform hover:scale-105">
-                                <img src="./assets/image/warung1.svg" alt="" class="rounded-xl w-40">
-                                <h1 class="text-slate-600 text-center font-semibold mt-2">Warung 1</h1>
+                            <a href="/menu-warung" class="block transform transition-transform hover:scale-105 ">
+                                <img src="./assets/image/warung1.png" alt="Warung 1" class="rounded-xl w-40 mx-auto relative">
+                                <div class="absolute top-3 right-0 bg-purple-900 text-white text-xs rounded-s-xl p-2">
+                                    <p> <span>23 </span>Terjual</p>
+                                </div>
+                                <h1 class="text-slate-600 text-center font-semibold mt-2">nama makanan</h1>
                             </a>
                         </div>
-                    
                         <div class="p-4">
-                            <a href="/menu" class="block transform transition-transform hover:scale-105">
-                                <img src="./assets/image/warung1.svg" alt="" class="rounded-xl w-40">
-                                <h1 class="text-slate-600 text-center font-semibold mt-2">Warung 1</h1>
+                            <a href="/menu-warung" class="block transform transition-transform hover:scale-105 ">
+                                <img src="./assets/image/warung1.png" alt="Warung 1" class="rounded-xl w-40 mx-auto relative">
+                                <div class="absolute top-3 right-0 bg-purple-900 text-white text-xs rounded-s-xl p-2">
+                                    <p> <span>23 </span>Terjual</p>
+                                </div>
+                                <h1 class="text-slate-600 text-center font-semibold mt-2">nama makanan</h1>
                             </a>
                         </div>
                     
-                        <div class="p-4">
-                            <a href="/menu" class="block transform transition-transform hover:scale-105">
-                                <img src="./assets/image/warung1.svg" alt="" class="rounded-xl w-40">
-                                <h1 class="text-slate-600 text-center font-semibold mt-2">Warung 1</h1>
-                            </a>
-                        </div>
-                    
-                        <div class="p-4">
-                            <a href="/menu" class="block transform transition-transform hover:scale-105">
-                                <img src="./assets/image/warung1.svg" alt="" class="rounded-xl w-40">
-                                <h1 class="text-slate-600 text-center font-semibold mt-2">Warung 1</h1>
-                            </a>
-                        </div>
-                    
-                        <div class="p-4">
-                            <a href="/menu" class="block transform transition-transform hover:scale-105">
-                                <img src="./assets/image/warung1.svg" alt="" class="rounded-xl w-40">
-                                <h1 class="text-slate-600 text-center font-semibold mt-2">Warung 1</h1>
-                            </a>
-                        </div>
-                    
-                      
-                       
-                        <!-- Tambahkan lebih banyak item jika diperlukan -->
+                        
                     </div>
                 </div>
             </section>

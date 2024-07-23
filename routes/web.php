@@ -21,3 +21,13 @@ Route::get('/notifikasi', function () {
 Route::get('/keranjang', function () {
     return view('e-canteen.pembeli.keranjang');
 });
+Route::get('/pembayaran', function () {
+    return view('e-canteen.pembeli.pembayaran');
+});
+
+// penjual
+Route::get('/login-penjual', function () {
+    return view('e-canteen.penjual.auth.login_penjual');
+});
+
+
