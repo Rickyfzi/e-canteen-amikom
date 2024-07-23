@@ -22,44 +22,43 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
+
+
+
 document.addEventListener('DOMContentLoaded', () => {
-    // Mendapatkan semua tombol dan elemen counter
-    const counters = document.querySelectorAll('.counter');
-    const decreaseButtons = document.querySelectorAll('.decrease');
     const increaseButtons = document.querySelectorAll('.increase');
+    const decreaseButtons = document.querySelectorAll('.decrease');
+    const totalPriceElement = document.getElementById('total-price');
 
-    // Menyimpan nilai awal untuk setiap counter
-    const counterValues = {};
+    const updateTotalPrice = () => {
+        let totalPrice = 0;
+        document.querySelectorAll('tr[data-price]').forEach(row => {
+            const price = parseInt(row.getAttribute('data-price'));
+            const quantity = parseInt(row.querySelector('.quantity').textContent);
+            totalPrice += price * quantity;
+        });
+        totalPriceElement.textContent = totalPrice.toLocaleString();
+    };
 
-    // Inisialisasi nilai counter
-    counters.forEach(counter => {
-        const counterId = counter.getAttribute('data-counter');
-        counterValues[counterId] = parseInt(counter.textContent, 10);
+    increaseButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const quantitySpan = button.previousElementSibling;
+            let value = parseInt(quantitySpan.textContent);
+            quantitySpan.textContent = value + 1;
+            updateTotalPrice();
+        });
     });
 
-    // Fungsi untuk memperbarui nilai counter
-    function updateCounter(counterId, newValue) {
-        document.querySelector(`.counter[data-counter="${counterId}"]`).textContent = newValue;
-    }
-
-    // Menambahkan event listener untuk tombol kurangi
     decreaseButtons.forEach(button => {
         button.addEventListener('click', () => {
-            const counterId = button.getAttribute('data-counter');
-            const currentValue = counterValues[counterId];
-            if (currentValue > 0) {
-                counterValues[counterId] = currentValue - 1;
-                updateCounter(counterId, counterValues[counterId]);
+            const quantitySpan = button.nextElementSibling;
+            let value = parseInt(quantitySpan.textContent);
+            if (value > 0) {
+                quantitySpan.textContent = value - 1;
+                updateTotalPrice();
             }
         });
     });
-
-    // Menambahkan event listener untuk tombol tambah
-    increaseButtons.forEach(button => {
-        button.addEventListener('click', () => {
-            const counterId = button.getAttribute('data-counter');
-            counterValues[counterId] = counterValues[counterId] + 1;
-            updateCounter(counterId, counterValues[counterId]);
-        });
-    });
 });
+
+

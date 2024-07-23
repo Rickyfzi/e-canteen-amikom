@@ -9,6 +9,7 @@
                 {{-- <button class="absolute top-16 right-16 text-black hover:text-blue-600 ">
                     Tandai sudah dibaca semua
                 </button>  --}}
+                <a href="/sudah-login-beranda" class="absolute sm:top-16 xs:top-8 xs:right-10 sm:right-16 bg-purple-900 shadow-md px-4 py-1 rounded-sm text-white hover:bg-blue-600">back</a>
                 <div class="flex items-center border-b border-slate-300 py-4">
                     <div class="mr-4">
                         <img src="./assets/image/warung1.svg" alt="" class="rounded-xl xs:w-16 md:w-20">
